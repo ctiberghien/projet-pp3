@@ -1,0 +1,46 @@
+#root {
+    -fx-background-image: url('../imagesVeryLowRes/space.png');
+    -fx-background-size: cover;
+    -fx-background-postion: center center;
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+
+}
+
+#unchecked {
+    /* default properties */
+    -fx-background-image: url('../images/checkbox_unchecked.png');
+    -fx-height: 200px;
+    -fx-width: 200px;
+}
+
+#checked {
+    /* background color for selected checkbox */
+    -fx-background-image: url('../images/checkbox_checked.png');
+    -fx-height: 200px;
+    -fx-width: 200px;
+}
+#enter {
+    -fx-background-image: url('../images/Enter.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#f {
+    -fx-background-image: url('../images/F.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#g {
+    -fx-background-image: url('../images/G.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#h {
+    -fx-background-image: url('../images/H.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

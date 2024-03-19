@@ -1,0 +1,27 @@
+JoueurA :
+-Z
+-S
+-P
+-W
+#0x00ff00ff
+
+JoueurB :
+-Up
+-Down
+-M
+#0x000000ff
+
+Balle :
+#0x000000ff
+
+Terrain:
+#map3
+
+Son Musique:
+0.25
+
+Son Bruitage:
+0.16560509554140093
+
+Graphismes:
+2

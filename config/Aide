@@ -1,0 +1,74 @@
+AIDE BONK :
+
+
+- Résumé du jeu -
+
+Bonk est une version modifée et revisitée du jeu Pong sorti sur arcade en 1972.
+Le concept du jeu original Pong est une simulation de tennis de table ou ping-pong. 
+Une balle se déplace à travers l'écran et rebondit sur les rebords du
+haut et du bas de la fenêtre. Les deux joueurs commandent chacun une raquette, 
+représentée par un trait vertical aux extrémités gauche et droite de la fenêtre. 
+Le joueur déplace cette raquette en la faisant glisser verticalement entre 
+les extrémités de l'écran à l'aide des contrôles. Si la balle frappe la raquette, 
+elle rebondit vers l'autre joueur. Si elle manque la raquette, l'autre joueur marque un point. 
+Les scores de chaque joueur sont affichés en haut au centre de la fenêtre.
+Dans Bonk, il y a plusieurs différences commme la possibilité de jouer contre l'ordinateur, 
+différents modes de jeu ainsi que plusieurs features modifiant le système de jeu et la
+personnalisation du jeu.
+ 
+
+- Menus/UI -
+
+Appuyez sur les touches du clavier indiquées sur les différents boutons ou utilisez la souris
+en cliquant sur ces boutons pour naviguer dans les menus.
+
+
+- Menu principal -
+
+Le menu principal permet de fermer le jeu, de consulter le classement, d'aller dans le menu de
+choix du mode de jeu ainsi que d'aller dans le menu d'options
+
+
+- Classement -
+
+Le classement permet de consulter les meilleurs scores enregistrés des participants du mode challenge
+
+
+- Options -
+
+Le menu d'options permet d'aller dans le menu du réglage du son, des boutons ainsi que des skins :
+
+* Son :
+
+* Boutons : permet d'assigner une touche du clavier à une action à effectuer dans le jeu, il faut
+pour cela appuyer sur la touche du clavier assignée au bouton correspondant à l'action puis appuyer
+sur la touche souhaitée
+
+* Skin : permet de modifier les skins choisis pour la raquette 1 et 2 par défaut et d'enregistrer
+les couleurs correspondantes en appuyant sur la touche assignée au bouton sauvegarder. Pour choisir
+un skin, il faut appuyer sur la touche correspondante au bouton pour chaque raquette puis utiliser
+le menu colorpicker. La souris est nécessaire pour choisir une couleur.
+
+
+- Choix du mode de jeu -
+
+Il y a 3 modes de jeu disponibles : le mode classique, infini et challenge
+
+* Classique : lancer le mode classique vous amènera sur une page de choix du skin des raquettes (voir
+- Options - ; * Skin) puis sur une page de choix de votre coup spécial qui est une feature particulière
+de Bonk : Il existe quatre coups spéciaux (fireball, waveball, earthwall et thunderball) qui peuvent
+être utilisés pendant le match pour donner un effet différent à la balle pour déstabiliser l'adversaire.
+Il est possible aussi de ne choisir aucun coup spécial en en sélectionnant aucun ou bien d'appuyer sur
+la touche correspondante au bouton croix. Cette même page permet également de choisir entre lancer un 
+match entre 2 joueurs, 1 joueur et un joueur contrôlé par l'ordinateur et 2 joueurs contrôlés par 
+l'ordinateur. Il est aussi possible de choisir le nombre de points nécessaire pour remporter la partie.
+Lors de la partie, il faut utiliser les touches assignées auparavant pour faire bouger la raquette. Pour
+quitter la partie lorsqu'elle est terminée ou non, il faut appuyer sur le bouton correspondant.
+
+* Infini : le mode infini est similaire au mode classique, sauf qu'il n'y a pas de nombre de points nécessaires
+pour gagner.
+
+* Challenge ; le mode challenge permet à un seul joueur de jouer contre l'ordinateur : le but est de marquer
+le plus de points possibles en un temps limité. Une fois la partie terminée, il y a possibilité d'appuyer sur
+le bouton correspondant à statistique pour enregistrer le score effectué. Il faut ensuite entrer son nom dans
+la boite de texte.

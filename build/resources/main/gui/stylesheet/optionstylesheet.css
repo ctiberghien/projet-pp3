@@ -1,0 +1,123 @@
+#root {
+    -fx-background-image: url('../images/space.gif');
+    -fx-background-size: cover;
+    -fx-background-color: transparent
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/space.png');
+    -fx-background-size: cover;
+    -fx-background-color: transparent
+}
+
+#border {
+    -fx-background-image: url('../images/bg7.gif');
+    -fx-background-size: stretch;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(200, 200, 200, 100), 30, 0.2, 0, 0)
+}
+
+#border1 {
+    -fx-background-image: url('../imagesLowRes/bg7.gif');
+    -fx-background-size: stretch;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(200, 200, 200, 100), 30, 0.2, 0, 0)
+}
+
+#border2 {
+    -fx-background-image: url('../imagesVeryLowRes/bg7.png');
+    -fx-background-size: stretch;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(200, 200, 200, 100), 30, 0.2, 0, 0)
+}
+
+#title {
+    -fx-background-image: url('../images/option.png');
+    -fx-background-size: contain;
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+.button:hover,.button:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+}
+
+#config {
+    -fx-background-image: url('../images/controls.png');
+}
+
+#config:hover,#config:focused {
+    -fx-background-image: url('../images/controlsHover.png');
+}
+
+#skin {
+    -fx-background-image: url('../images/skin.png');
+}
+
+#skin:hover,#skin:focused {
+    -fx-background-image: url('../images/skinHover.png');
+}
+
+#graphisme {
+    -fx-background-image: url('../images/graphisme.png');
+}
+
+#savegame {
+    -fx-background-image: url('../images/partiesauvgarde.png');
+}
+
+#sound {
+    -fx-background-image: url('../images/sound.png');
+}
+
+#sound:hover,#sound:focused {
+    -fx-background-image: url('../images/soundHover.png');
+}
+
+#retour {
+    -fx-background-image: url('../images/return.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#retour:hover,#retour:focused {
+    -fx-background-image: url('../images/returnHover.png');
+}
+
+#c {
+    -fx-background-image: url('../images/C.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#s {
+    -fx-background-image: url('../images/S.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#k {
+    -fx-background-image: url('../images/K.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#p {
+    -fx-background-image: url('../images/P.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#g {
+    -fx-background-image: url('../images/G.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#escape {
+    -fx-background-image: url('../images/escape.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

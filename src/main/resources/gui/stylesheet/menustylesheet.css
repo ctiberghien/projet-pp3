@@ -1,0 +1,103 @@
+#root {
+    -fx-background-image: url('../images/background4.gif');
+    -fx-background-size: contain    ;
+}
+
+#root1 {
+    -fx-background-image: url('../imagesLowRes/background4.gif');
+    -fx-background-size: contain;
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/background4.png');
+    -fx-background-size: contain;
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+
+}
+
+.button:hover,
+.button:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+}
+
+#play {
+    -fx-background-image: url('../images/play.png');
+}
+
+#play:hover,
+#play:focused {
+    -fx-background-image: url('../images/playHover.png');
+}
+
+#classement {
+    -fx-background-image: url('../images/classement.png');
+}
+
+#classement:hover,
+#classement:focused {
+    -fx-background-image: url('../images/classementHover.png');
+}
+
+#quit {
+    -fx-background-image: url('../images/quit.png');
+}
+
+#quit:hover,
+#quit:focused {
+    -fx-background-image: url('../images/quitHover.png');
+}
+
+#option {
+    -fx-background-image: url('../images/setting.png');
+}
+
+#option:hover,
+#option:focused {
+    -fx-background-image: url('../images/settingHover.png');
+}
+
+#aide {
+    -fx-background-image: url('../images/aide.png');
+}
+
+#aide:hover,
+#aide:focused {
+    -fx-background-image: url('../images/aideHover.png');
+}
+
+#title {
+    -fx-background-image: url('../images/title.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+
+#p {
+    -fx-background-image: url('../images/P.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#c {
+    -fx-background-image: url('../images/C.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#escape {
+    -fx-background-image: url('../images/escape.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#o {
+    -fx-background-image: url('../images/O.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#aq {
+    -fx-background-image: url('../images/AQ.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

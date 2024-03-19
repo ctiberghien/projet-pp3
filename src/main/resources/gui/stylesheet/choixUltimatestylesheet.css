@@ -1,0 +1,180 @@
+#root {
+    -fx-background-image: url('../images/background.gif');
+    -fx-background-size: contain;
+}
+#root1 {
+    -fx-background-image: url('../imagesLowRes/background.gif');
+    -fx-background-size: contain;
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/background.png');
+    -fx-background-size: contain;
+}
+.boutton {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-repeat: no-repeat;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-background-size: contain;
+
+}
+
+.button:hover,
+.button:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+}
+
+.preview {
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 10, 0, 0, 0);
+}
+
+#retour {
+    -fx-background-image: url('../images/return.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#retour:hover,
+#retour:focused {
+    -fx-background-image: url('../images/returnHover.png');
+}
+
+#next {
+    -fx-background-image: url('../images/next.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#next:hover,
+#next:focused {
+    -fx-background-image: url('../images/nextHover.png');
+}
+
+.border {
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(200, 200, 200, 100), 30, 0.2, 0, 0);
+}
+
+#map1 {
+    -fx-background-image: url('../images/backgroundgame.gif');
+}
+
+#map1_2 {
+    -fx-background-image: url('../imagesVeryLowRes/backgroundgame.png');
+}
+
+#map2 {
+    -fx-background-image: url('../images/bg8.jpg');
+}
+
+#map3 {
+    -fx-background-image: url('../images/jose-vega-final-painting.jpg');
+}
+
+.selectiontexte {
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 40, 0.7, 0.6, 0);
+    -fx-font-family: "Verdana";
+}
+.textsize18{
+    -fx-font-size: 18px; 
+}
+.textsize15{
+    -fx-font-size:15px;
+}
+
+.textsize13{
+    -fx-font-size:13px;
+}
+
+.textsize9{
+    -fx-font-size:9px;
+}
+
+.fireball {
+    -fx-background-image: url('../images/fireball.png');
+    -fx-background-size: contain;
+    -fx-background-position: center center;
+    -fx-border-color: rgba(256, 256, 256, 0.5);
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+
+
+}
+
+
+.waterball{
+    -fx-background-image : url('../images/WaterDrop.png');
+    -fx-background-size : contain;
+    -fx-background-position : center center;
+    -fx-border-color : rgba(256,256,256,0.5);
+    -fx-border-width : 2px;
+    -fx-border-radius :5px;
+}
+
+.earthwall{
+    -fx-background-image : url('../images/EarthWall.png');
+    -fx-background-size : contain;
+    -fx-background-position : center center;
+    -fx-border-color : rgba(256,256,256,0.5);
+    -fx-border-width : 2px;
+    -fx-border-radius :5px;
+}
+
+.thunderball{
+    -fx-background-image : url('../images/Thunder.png');
+    -fx-background-size : contain;
+    -fx-background-position : center center;
+    -fx-border-color : rgba(256,256,256,0.5);
+    -fx-border-width : 2px;
+    -fx-border-radius :5px;
+}
+
+
+.remove {
+    -fx-background-image: url('../images/remove.png');
+    -fx-background-size: contain;
+    -fx-border-color: rgba(256, 256, 256, 0.5);
+    -fx-border-width: 2px;
+    -fx-background-position: center center;
+    -fx-border-radius: 5px;
+}
+
+#increase {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../images/uparrow.png");
+}
+
+#increase:hover,
+#increase:focused {
+    -fx-background-image: url("../images/uparrowHover.png");
+}
+
+#decrease {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../images/downarrow.png");
+}
+
+#decrease:hover,
+#decrease:focused {
+    -fx-background-image: url("../images/downarrowHover.png");
+}
+
+.spbtn {
+    -fx-background-color: #e6e6e663;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-border: solid;
+    -fx-border-color: rgba(230, 230, 230, 10);
+    -fx-text-fill: rgb(234, 234, 234);
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+}

@@ -1,0 +1,94 @@
+#root {
+    -fx-background-image : url("../images/space.gif");
+    -fx-background-size: cover;
+    -fx-background-postion: center center;
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/space.png');
+    -fx-background-size: cover;
+    -fx-background-postion: center center;
+}
+
+.button {
+    -fx-cursor: hand;
+
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.1, 0, 0);
+}
+
+
+.texte {
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 170), 50, 0.7, 0, 0);
+    -fx-font-size: 30px;
+    -fx-font-family :"Courrier New";
+}
+.spbtn {
+    -fx-background-color: #e6e6e663;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-border: solid;
+    -fx-border-color: rgba(230, 230, 230, 10);
+    -fx-text-fill: rgb(234, 234, 234);
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family: "Verdana";
+}
+
+.textsize14{
+    -fx-font-size : 14px;
+}
+
+
+#save {
+    -fx-background-image: url('../images/save.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+
+#retour {
+    -fx-background-image: url('../images/return.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#retour:hover,
+#retour:focused {
+    -fx-background-image: url('../images/returnHover.png');
+}
+
+#s {
+    -fx-background-image: url('../images/S.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#b {
+    -fx-background-image: url('../images/B.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#t {
+    -fx-background-image: url('../images/T.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#enter {
+    -fx-background-image: url('../images/Enter.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#escape {
+    -fx-background-image: url('../images/escape.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#c {
+    -fx-background-image: url('../images/C.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,137 @@
+#root {
+    -fx-background-image: url('../images/space.gif');
+    -fx-background-size: cover;
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/space.png');
+    -fx-background-size: contain;
+}
+
+.texte {
+    -fx-font-family: 'Times';
+    -fx-font-size: 25px;
+    -fx-fill: white;
+    -fx-font-weight: 800;
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+.button:hover,
+.button:focused,
+.cadre:hover,
+.cadre:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+}
+
+.cadre {
+    -fx-opacity: 0.8;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+#save {
+    -fx-background-image: url('../images/save1.png');
+}
+
+#save:hover,
+#save:focused {
+    -fx-background-image: url('../images/saveHover1.png');
+
+}
+
+#retour {
+    -fx-background-image: url('../images/return.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#retour:hover,
+#retour:focused {
+    -fx-background-image: url('../images/returnHover.png');
+}
+
+#overlay {
+    -fx-background-image: url('../images/overlaywhite.png');
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 30), 10, 0, 0, 0)
+}
+
+#pAt {
+    -fx-background-image: url('../images/PlayerA.png');
+    -fx-background-size: contain;
+}
+
+#pAup {
+    -fx-background-image: url('../images/setUP.png');
+    -fx-background-size: contain;
+}
+
+#pAdown {
+    -fx-background-image: url('../images/setDOWN.png');
+    -fx-background-size: contain;
+}
+
+#pBt {
+    -fx-background-image: url('../images/PlayerB.png');
+    -fx-background-size: contain;
+}
+
+#pBup {
+    -fx-background-image: url('../images/setUP.png');
+    -fx-background-size: contain;
+}
+
+#pBdown {
+    -fx-background-image: url('../images/setDOWN.png');
+    -fx-background-size: contain;
+}
+
+.txtpause {
+    -fx-background-image: url("../images/setPause.png");
+    -fx-background-size: contain;
+}
+
+.txtult {
+    -fx-background-image: url("../images/setUlt.png");
+    -fx-background-size: contain;
+}
+
+
+
+#config {
+    -fx-background-image: url('../images/configtouche.png');
+    -fx-background-size: contain;
+}
+
+#separator {
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 120), 15, 0.6, 0, 0);
+}
+
+#saveBorder {
+    -fx-fill: transparent;
+    -fx-stroke: white;
+    -fx-stroke-width: 3px;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 60), 15, 0.2, 0, 0)
+}
+
+#underline {
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 120), 15, 0.2, 0, 0)
+}
+#escape {
+    -fx-background-image: url('../images/escape.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

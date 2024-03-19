@@ -1,0 +1,113 @@
+#root {
+    -fx-background-image: url('../images/background4.gif');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+
+#root1 {
+    -fx-background-image: url('../imagesLowRes/background4.gif');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/background4.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+
+#bord {
+    -fx-background-image: url('../images/background.gif');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 100), 80, 0.4, 0, 0);
+}
+
+#bord1 {
+    -fx-background-image: url('../imagesLowRes/background.gif');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 100), 80, 0.4, 0, 0);
+}
+
+#bord2 {
+    -fx-background-image: url('../imagesVeryLowRes/background.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 100), 80, 0.4, 0, 0);
+}
+
+
+#title {
+    -fx-background-image: url('../images/chooseyourmode.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+
+#information {
+    -fx-fill: white;
+    -fx-font-size: 20;
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+.button:hover,.button:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+}
+
+#modePoint {
+    -fx-background-image: url('../images/classic.png');
+}
+
+#modePoint:hover,#modePoint:focused {
+    -fx-background-image: url('../images/classicHover.png');
+}
+#modeInfini{
+    -fx-background-image: url('../images/infini.png');
+}
+#modeInfini:hover,#modeInfini:focused{
+    -fx-background-image: url('../images/infiniHover.png');
+}
+#modeChallenge{
+    -fx-background-image: url('../images/challenge.png');
+}
+#modeChallenge:hover,#modeChallenge:focused{
+    -fx-background-image: url('../images/challengeHover.png');
+}
+#retour{
+    -fx-background-image: url('../images/return.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+#retour:hover,#retour:focused{
+    -fx-background-image: url('../images/returnHover.png');  
+}
+#escape {
+    -fx-background-image: url('../images/escape.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#i {
+    -fx-background-image: url('../images/I.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#c {
+    -fx-background-image: url('../images/C.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+#n {
+    -fx-background-image: url('../images/N.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

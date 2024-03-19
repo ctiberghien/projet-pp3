@@ -1,0 +1,11 @@
+#img1 {
+    -fx-background-image: url('../images/background.gif');
+
+}
+
+#img2 {
+    -fx-background-image: url('../images/bg7.gif');
+}
+#img3{
+    -fx-background-image: url('../images/backgroundgame.gif');
+}

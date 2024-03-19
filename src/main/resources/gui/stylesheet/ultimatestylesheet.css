@@ -1,0 +1,49 @@
+.progress-bar {
+    -fx-border-color: rgb(216, 216, 216);
+    -fx-background-color: transparent;
+    -fx-box-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.5, 0, 0);
+    -fx-padding: 2px;
+}
+
+#timer-progress-bar .bar {
+    -fx-background-color: linear-gradient(to left, #9a9a9c52, #b5b5b5cc);
+    -fx-padding: 10px;
+}
+
+#fire-progress-bar .bar{
+    -fx-background-color: linear-gradient(to left, #ff000052, #de4f12cc);
+    -fx-padding: 10px;
+}
+
+#water-progress-bar .bar{
+    -fx-background-color: linear-gradient(to left, #0000ff52, #00d5ffcc);
+    -fx-padding: 10px;
+}
+
+#electro-progress-bar .bar{
+    -fx-background-color: linear-gradient(to left, #ddff0052, #fda610cc);
+    -fx-padding: 10px;
+}
+
+#ground-progress-bar .bar{
+    -fx-background-color: linear-gradient(to left, #20110252, #9d3c07cc);
+    -fx-padding: 10px;
+}
+
+
+
+
+.progress-bar > .track {
+    -fx-background-color: transparent;
+  }
+
+
+  .textUlt{
+    -fx-fill: #ffffffe1;
+    -fx-font-size: 13px;
+    -fx-font-family: "Verdana";
+  }

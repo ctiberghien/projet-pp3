@@ -1,0 +1,178 @@
+#root {
+    -fx-background-image: url('../images/background.gif');
+    -fx-background-size: contain;
+}
+
+#root1 {
+    -fx-background-image: url('../imagesLowRes/background.gif');
+    -fx-background-size: contain;
+}
+
+#root2 {
+    -fx-background-image: url('../imagesVeryLowRes/background.png');
+    -fx-background-size: contain;
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position :center center;
+}
+
+.button:hover,
+.button:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+}
+
+#save {
+    -fx-border-color: rgba(256, 256, 256, 0.1);
+    -fx-background-image: url('../images/save.png');
+}
+
+#save:hover,
+#save:focused {
+    -fx-background-image: url('../images/saveHover.png');
+
+}
+
+.preview {
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 10, 0, 0, 0);
+}
+
+#retour {
+    -fx-background-image: url('../images/return.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#retour:hover,
+#retour:focused {
+    -fx-background-image: url('../images/returnHover.png');
+}
+
+#next {
+    -fx-background-image: url('../images/next.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#next:hover,
+#next:focused {
+    -fx-background-image: url('../images/nextHover.png');
+}
+
+.border {
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(200, 200, 200, 100), 30, 0.2, 0, 0);
+
+}
+
+#map1 {
+    -fx-background-image: url('../images/backgroundgame.gif');
+}
+
+#map1_2 {
+    -fx-background-image: url('../imagesVeryLowRes/backgroundgame.png');
+}
+
+#map2 {
+    -fx-background-image: url('../images/bg8.jpg');
+}
+
+#map3 {
+    -fx-background-image: url('../images/jose-vega-final-painting.jpg');
+}
+
+#nextMap {
+    -fx-background-image: url('../images/rightarrow.png');
+}
+
+#nextMap:hover,
+#nextMap:focused {
+    -fx-background-image: url('../images/rightarrowHover.png');
+}
+
+#previousMap {
+    -fx-background-image: url('../images/leftarrow.png');
+}
+
+#previousMap:hover,
+#previousMap:focused {
+    -fx-background-image: url('../images/leftarrowHover.png');
+}
+
+.selectiontexte {
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 40, 0.7, 0.6, 0);
+    -fx-font-family: "Verdana";
+}
+
+
+.textsize13 {
+    -fx-font-size: 13px;
+}
+
+.colorpicker {
+    -fx-cursor: hand;
+    -fx-background-color: #e6e6e663;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-border: solid;
+    -fx-border-color: rgba(230, 230, 230, 10);
+    -fx-text-fill: rgb(234, 234, 234);
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-font-family: "Verdana";
+
+}
+
+.colorpicker:hover,
+.color-picker:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.2, 0, 0);
+
+}
+
+.color-picker .color-picker-label {
+    -fx-alignment: center;
+}
+
+.color-picker .color-picker-label .text {
+    -fx-font-size: 13px;
+    -fx-font-family: "Verdana";
+    -fx-fill: rgb(234, 234, 234);
+}
+
+.colorpicker .color-picker-grid {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.color-palette {
+    -fx-background-color: #e6e6e663;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-border: solid;
+    -fx-border-color: rgba(230, 230, 230, 10);
+}
+
+.color-palette .hyperlink {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+#navBgmap{
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 255), 30, 0.8, 0, 0);
+}
+#enter {
+    -fx-background-image: url('../images/Enter.png');
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}

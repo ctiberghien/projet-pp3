@@ -1,0 +1,83 @@
+.root {
+    -fx-background-size: cover;
+    -fx-background-postion: center center;
+}
+
+.button {
+    -fx-cursor: hand;
+
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 100), 30, 0.1, 0, 0);
+}
+
+.texte {
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 170), 50, 0.7, 0, 0);
+    -fx-font-size: 30px;
+    -fx-font-family :"Courrier New";
+}
+
+.racketball {
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 10, 0, 0, 0);
+}
+
+#map1 {
+    -fx-background-image: url('../images/backgroundgame.gif');
+}
+
+#map1_2 {
+    -fx-background-image: url('../imagesVeryLowRes/backgroundgame.png');
+}
+
+#map2 {
+    -fx-background-image: url('../images/bg8.jpg');
+}
+
+#map3 {
+    -fx-background-image: url('../images/jose-vega-final-painting.jpg');
+}
+
+.scorebackground {
+    -fx-fill: transparent;
+    -fx-stroke: #ffffff6c;
+    -fx-stroke-width: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 70, 0.5, 0, 0);
+}
+
+.scoreseparation {
+    -fx-stroke: #ffffff6c;
+    -fx-stroke-width: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 70, 0.5, 0, 0);
+}
+
+.scoretexte {
+    -fx-alignment: center;
+    -fx-fill: #ffffffe1;
+    -fx-font-size: 70px;
+    -fx-font-weight: lighter;
+    -fx-font-family: "Courier New";
+    -fx-effect: dropshadow(three-pass-box, rgba(256, 256, 256, 100), 70, 0.7, 0, 0);
+}
+
+.spbtn {
+    -fx-background-color: #e6e6e663;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-border: solid;
+    -fx-border-color: rgba(230, 230, 230, 10);
+    -fx-text-fill: rgb(234, 234, 234);
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family: "Verdana";
+}
+#txttime{
+    -fx-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(245, 245, 245, 170), 50, 0.7, 0, 0);
+    -fx-font-size: 14px;   
+    -fx-font-family :"Courrier New";
+}
+.quit{
+    -fx-font-size: 13px; 
+}
