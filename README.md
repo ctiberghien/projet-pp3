@@ -3,4 +3,3 @@ Projet réalisé en groupe de 5 pour le cours de Prépro 3 (L2). L'objectif éta
 Instructions de lancement :
 ```bash
 $ ./gradlew run
-`̀ `
